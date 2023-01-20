@@ -1,0 +1,100 @@
+*{padding:0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+	margin:0;
+	font-family: sans-serif;
+}
+
+header {
+	background: url("image/bg.jpg");
+	text-align: center;
+	padding-top: 30px;
+	background-size: contain;
+	background-attachment: fixed;
+	position: relative;
+	/*border-radius: 0 0 85% 85% / 30%;*/
+	filter:brightness(95%);
+	/*clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);*/
+	background-repeat: no-repeat;
+}
+
+header .nav{
+	display: inline-block;
+	position: relative;
+
+
+}
+
+header a{
+	text-decoration: none;
+	/*padding: .618em 0;*/
+	padding: 5px 0;
+	background-color: transparent;
+	text-decoration: none;
+	color: #fff;
+	margin: 0 50px;
+	padding: .618em 0;
+	vertical-align: middle;
+	letter-spacing: .16em;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+}
+
+header a:hover{
+	color: #273642;
+	text-decoration-line: none;
+}
+header .banner{
+	width:100%;
+	height: 100%;
+	padding: 30px;
+	padding-top:150px;
+	padding-bottom: 150px;
+	color: #273642;
+
+	/*text-shadow: 1px 1px #333;*/
+	
+}
+
+h1{
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+h3, p{
+	font-family: "Open Sans", sans-serif;
+	margin-bottom: 30px;
+}
+
+button{
+	font-size:40px;
+	border:none;
+	outline: none;
+	padding: 10px 20px;
+	color:#fff;
+	background-color: transparent;
+
+
+}
+
+button:hover{
+	cursor: pointer;
+	color: #273642;
+	border-color: #273642;
+}
+
+
+
+
+
+
+
+
+
+
